@@ -9,7 +9,6 @@
   --dark-bg-color: #1F2937; /* hero and footer */
   --light-text-color: #F9FAF8; 
   --accent-color: #3882F6;
-  --dark-text-color: #1F2937; /* information header text */
   --light-bg-color: #E5E7EB; /* quote section */
 }
 
@@ -98,8 +97,14 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
+  background-color: var(--light-text-color);
   min-height: 300px;
+}
+
+#product-showcase h1 {
+  text-align: center;
+  padding: 20px;
+  color: var(--dark-bg-color);
 }
 
 #product-wrapper {
