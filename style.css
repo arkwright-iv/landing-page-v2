@@ -65,6 +65,7 @@ nav ul li {
   display: flex;
   justify-content: space-evenly;
   padding: 80px;
+  gap: 80px;
 }
 
 #hero-signup-text {
@@ -94,11 +95,33 @@ nav ul li {
 }
 
 #product-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: green;
   min-height: 300px;
 }
 
-#product
+#product-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid cyan;
+  border-radius: 6px;
+}
 
 #main-quote {
   background-color: yellow;
