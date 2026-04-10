@@ -190,6 +190,7 @@ blockquote {
 
 .quote-author {
   text-align: right;
+  font-weight: 500;
 }
 
 #cta {
