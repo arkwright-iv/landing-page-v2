@@ -33,7 +33,6 @@ header {
   align-items: center;
   margin: auto 40px;
   padding-top: 8px;
-  
 }
 
 #logo {
@@ -59,6 +58,23 @@ nav ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: var(--light-text-color);
+}
+
+a:focus {
+  border-left: 2px solid rgb(207, 207, 93);
+}
+
+a:hover {
+  color: rgb(253, 92, 92);
+}
+
+a:active {
+  color: red;
+}
+
 #hero {
   background-color: var(--dark-bg-color);
   min-height: 300px;
@@ -76,6 +92,10 @@ nav ul li {
   flex-direction: column;
   justify-content: space-around;
   flex: 0 2 auto;
+}
+
+#hero-signup-text button {
+
 }
 
 #hero-signup-text h1 {
