@@ -6,14 +6,16 @@
 }
 
 :root {
+  --darker-bg-color: #101924;
   --dark-bg-color: #1F2937; /* hero and footer */
   --light-text-color: #F9FAF8; 
   --accent-color: #3882F6;
   --light-bg-color: #E5E7EB; /* quote section */
+  --low-contrast-white: #E5E7EBBF;
 }
 
 body {
-  font-family: "Modern Antiqua", serif;
+  font-family: "IBM Plex Serif", serif;
 }
 
 #page-wrapper {
@@ -21,8 +23,9 @@ body {
 }
 
 header {
-  background-color: rgb(223, 223, 223);
+  background-color: var(--darker-bg-color);
   height: 64px;
+  box-shadow: 3px 2px 3px rgba(0, 0, 0, 1);
 }
 
 #nav-wrapper {
@@ -30,6 +33,7 @@ header {
   align-items: center;
   margin: auto 40px;
   padding-top: 8px;
+  
 }
 
 #logo {
@@ -71,6 +75,7 @@ nav ul li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  flex: 0 2 auto;
 }
 
 #hero-signup-text h1 {
@@ -80,7 +85,7 @@ nav ul li {
 
 #hero-signup-text p {
   font-size: 18px;
-  color: var(--light-bg-color);
+  color: var(--low-contrast-white);
 }
 
 #hero-img-ctn {
@@ -94,17 +99,23 @@ nav ul li {
 }
 
 #product-showcase {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: var(--light-text-color);
   min-height: 300px;
 }
 
 #product-showcase h1 {
+  font-size: 36px;
+  font-weight: 700;
   text-align: center;
   padding: 20px;
+  margin-bottom: 20px;
   color: var(--dark-bg-color);
+}
+
+#product-wrapper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #product-wrapper {
