@@ -10,6 +10,7 @@
   --dark-bg-color: #1F2937; /* hero and footer */
   --light-text-color: #F9FAF8; 
   --accent-color: #3882F6;
+  --dark-accent-color: #2f6ccd;
   --light-bg-color: #E5E7EB; /* quote section */
   --low-contrast-white: #E5E7EBBF;
 }
@@ -90,12 +91,23 @@ a:active {
 #hero-signup-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex: 0 2 auto;
 }
 
 #hero-signup-text button {
+  all: unset;
+  align-self: flex-start;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 40px;
+  background-color: var(--dark-accent-color);
+  color: var(--light-text-color);
+  border-radius: 6px;
+}
 
+#hero-signup-text button:hover {
+  background-color: var(--accent-color);
 }
 
 #hero-signup-text h1 {
