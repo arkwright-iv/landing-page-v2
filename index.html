@@ -1,44 +1,90 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Second project in TOP, a product landing page following a briefing.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Second project in TOP, a product landing page following a briefing."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Odin Landing Page</title>
   </head>
   <body>
     <header>
       <div id="nav-wrapper">
-      <img id="logo" src="./assets/logo.png" alt="A red viking shield as the page logo.">
-      <nav>
-        <ul>
-          <li><a href="#hero">raids</a></li>
-          <li><a href="#product-showcase">valhalla</a></li>
-          <li><a href="#main-quote">ship building</a></li>
-        </ul>
-      </nav>
+        <img
+          id="logo"
+          src="./assets/logo.png"
+          alt="A red viking shield as the page logo."
+        />
+        <nav>
+          <ul>
+            <li><a href="#hero">raids</a></li>
+            <li><a href="#product-showcase">valhalla</a></li>
+            <li><a href="#main-quote">ship building</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
-    
+
     <main>
       <section id="hero">
         <div id="hero-wrapper">
-          <div id="hero-sign-up-text">
+          <div id="hero-signup-text">
             <h1>Become a Viking today!</h1>
-            <p>We are the strongest army in Europe, we raid, we pillage, we hold awesome feasts with mead and good music, we offer free training on martial arts and axe throwing? What are you waiting for? Sign up today!</p>
+            <p>
+              We are the strongest army in Europe, we raid, we pillage, we hold
+              awesome feasts with mead and good music, we offer free training on
+              martial arts and axe throwing? What are you waiting for? Sign up
+              today!
+            </p>
             <button type="button">Sign Up</button>
           </div>
           <div id="hero-img-ctn">
-            <img src="assets/floki-crown.jpg" alt="A viking soldier with a bloodied face, Floki, holding a king's crown.">
+            <img
+              src="assets/floki-crown.jpg"
+              alt="A viking soldier with a bloodied face, Floki, holding a king's crown."
+            />
           </div>
         </div>
       </section>
-      <section id="product-showcase"></section>
-      <section id="main-quote"></section>
+      <section id="product-showcase">
+        <div id="product-wrapper">
+          <div class="product-container">
+            <div class="product"></div>
+            <p>axe throwing</p>
+          </div>
+          <div class="product-container">
+            <div class="product"></div>
+            <p>ship building</p>
+          </div>
+          <div class="product-container">
+            <div class="product"></div>
+            <p>martial arts</p>
+          </div>
+          <div class="product-container">
+            <div class="product"></div>
+            <p>feasts</p>
+          </div>
+        </div>
+      </section>
+      <section id="main-quote">
+        <blockquote>
+          Building ships is easy! We have specialized workshops every Tuesday!
+          Just bring a hammer, a handful of nails, and the wood is on us. Nail
+          one log to another, build the foundation, throw some water inside and
+          see if it doesn't leak. If it holds, you’re already practically a
+          natural-born carpenter!
+        </blockquote>
+        <p class="quote-author">— Floki, the Ship Builder</p>
+      </section>
       <section id="cta"></section>
     </main>
     <footer>

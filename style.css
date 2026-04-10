@@ -7,7 +7,7 @@
 
 :root {
   --dark-bg-color: #1F2937; /* hero and footer */
-  --hero-text-color: #F9FAF8; 
+  --light-text-color: #F9FAF8; 
   --accent-color: #3882F6;
   --dark-text-color: #1F2937; /* information header text */
   --light-bg-color: #E5E7EB; /* quote section */
@@ -57,7 +57,7 @@ nav ul li {
 }
 
 #hero {
-  background-color: #8d8181;
+  background-color: var(--dark-bg-color);
   min-height: 300px;
 }
 
@@ -67,11 +67,18 @@ nav ul li {
   padding-top: 24px;
 }
 
-#sign-up-ctn {
+#hero-signup-text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
+#hero-signup-text {
+  font-size: 48px;
+  color: var(--light-text-color);
+}
+
+
 
 #hero-img-ctn {
   display: flex;
