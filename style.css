@@ -10,7 +10,7 @@
   --dark-bg-color: #1F2937; /* hero and footer */
   --light-text-color: #F9FAF8; 
   --accent-color: #3882F6;
-  --dark-accent-color: #2f6ccd;
+  --dark-accent-color: #2f6CCD;
   --light-bg-color: #E5E7EB; /* quote section */
   --low-contrast-white: #E5E7EBBF;
 }
@@ -167,13 +167,29 @@ a:active {
 .product-box {
   width: 100px;
   height: 100px;
-  border: 2px solid cyan;
+  border: 4px inset var(--accent-color);
+  background-color: var(--dark-accent-color);
   border-radius: 6px;
 }
 
 #main-quote {
-  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-bg-color);
   min-height: 300px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 60px;
+}
+
+.quote-author {
+  text-align: right;
 }
 
 #cta {
