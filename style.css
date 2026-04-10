@@ -64,7 +64,7 @@ nav ul li {
 #hero-wrapper {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 24px;
+  padding: 80px;
 }
 
 #hero-signup-text {
@@ -73,12 +73,15 @@ nav ul li {
   justify-content: space-around;
 }
 
-#hero-signup-text {
+#hero-signup-text h1 {
   font-size: 48px;
   color: var(--light-text-color);
 }
 
-
+#hero-signup-text p {
+  font-size: 18px;
+  color: var(--light-bg-color);
+}
 
 #hero-img-ctn {
   display: flex;
@@ -87,13 +90,15 @@ nav ul li {
 }
 
 #hero-img-ctn img {
-  width: 50%;
+  width: 100%;
 }
 
 #product-showcase {
   background-color: green;
   min-height: 300px;
 }
+
+#product
 
 #main-quote {
   background-color: yellow;
