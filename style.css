@@ -5,6 +5,18 @@
   outline: 1px solid red;
 }
 
+:root {
+  --dark-bg-color: #1F2937; /* hero and footer */
+  --hero-text-color: #F9FAF8; 
+  --accent-color: #3882F6;
+  --dark-text-color: #1F2937; /* information header text */
+  --light-bg-color: #E5E7EB; /* quote section */
+}
+
+body {
+  font-family: "Modern Antiqua", serif;
+}
+
 #page-wrapper {
   margin: auto 10px;
 }
@@ -42,7 +54,6 @@ nav ul {
 nav ul li {
   font-size: 1.5rem;
   list-style: none;
-  font-family: "Modern Antiqua", serif;
 }
 
 #hero {
@@ -58,8 +69,7 @@ nav ul li {
 
 #sign-up-ctn {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-around;
 }
 
