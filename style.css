@@ -14,10 +14,16 @@ body {
 }
 
 header {
-  display: flex;
-  background-color: cyan;
+  
+  background-color: rgb(223, 223, 223);
   height: 64px;
+}
+
+#nav-wrapper {
+  display: flex;
   align-items: center;
+  margin: auto 40px;
+  padding-top: 8px;
 }
 
 #logo {
@@ -45,8 +51,20 @@ nav ul li {
 }
 
 #hero {
-  background-color: purple;
+  background-color: #eee;
   min-height: 300px;
+}
+
+#hero-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#sign-up-ctn {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #product-showcase {
