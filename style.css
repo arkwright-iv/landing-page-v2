@@ -95,7 +95,7 @@ a:active {
   flex: 0 2 auto;
 }
 
-#hero-signup-text button {
+.btn {
   all: unset;
   align-self: flex-start;
   font-size: 16px;
@@ -193,6 +193,43 @@ blockquote {
 }
 
 #cta {
-  background-color: blue;
+  background-color: var(--light-text-color);
   min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cta-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  min-width: 300px;
+  padding: 40px 100px;
+}
+
+#cta-text {
+  font-size: 32px;
+  font-weight: 500
+}
+
+.cta-btn {
+  all: unset;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 40px;
+  background-color: var(--dark-accent-color);
+  color: var(--light-text-color);
+  border-radius: 6px;
+}
+
+footer {
+  background-color: var(--light-bg-color);
+  color: black;
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 10px auto;
 }
