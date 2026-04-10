@@ -5,6 +5,14 @@
   outline: 1px solid red;
 }
 
+#page-wrapper {
+  margin: auto 10px;
+}
+
+body {
+  min-height: 100vh;
+}
+
 header {
   display: flex;
   background-color: cyan;
@@ -31,6 +39,27 @@ nav ul {
 }
 
 nav ul li {
+  font-size: 1.5rem;
   list-style: none;
   font-family: "Modern Antiqua", serif;
+}
+
+#hero {
+  background-color: purple;
+  min-height: 300px;
+}
+
+#product-showcase {
+  background-color: green;
+  min-height: 300px;
+}
+
+#main-quote {
+  background-color: yellow;
+  min-height: 300px;
+}
+
+#cta {
+  background-color: blue;
+  min-height: 300px;
 }
